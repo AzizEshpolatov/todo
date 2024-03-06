@@ -1,0 +1,38 @@
+name: todo_app
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+  carousel_slider: ^4.2.1
+  adaptive_theme: ^3.6.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  zoom_tap_animation: ^1.1.0
+  lottie: ^3.1.0
+  path_provider: ^2.1.2
+  sqflite: ^2.3.2
+  weekly_date_picker: ^1.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/lottie/notes_animation.json
